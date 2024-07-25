@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+   
+}
+
+.container{
+    background-image: linear-gradient(to right, #FF0099,#FFE0B2,#FFD54F);
+    background-size: cover;
+    padding-bottom: 100px;
+
+}
+
+nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+
+
+.ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+
+.list-items{
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 22px;
+    display: inline;
+    margin: 10px;
+}
+
+.call-icon{
+    margin-left: 50px;
+
+}
+.call{
+    margin-right: 10px;
+}
+
+.home-main-container{
+    background-image: url("https://res.cloudinary.com/dktfgy8q4/image/upload/v1721846255/img1_pzjyqh.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+
+    
+}
+
+.inner-card{
+    background: rgba(240, 101, 157, 0.7);
+    width:40%;
+    padding: 20px;
+
+}
+
+.card-heading{
+    color: #fff;
+    font-family:   sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.card-para{
+    color: #fff;
+    letter-spacing: 1px;
+    font-family:   sans-serif;
+}
+
+.burger-img{
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 55px;
+
+}
+
+.item-card{
+    background-color: #fff;
+    width: 250px; 
+    padding: 16px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    margin: 20px;
+}
+
+.items-container{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .items-container{
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-size: cover;
+        
+    }
+}
+
+.order-text{
+    text-align: center;
+    margin-top: 100px;
+    font-family:   sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.burger-tag{
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.burger-para{
+    text-align: center;
+    font-family:   sans-serif;
+    font-size: 12px;
+}
